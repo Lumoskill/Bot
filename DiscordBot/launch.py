@@ -35,7 +35,7 @@ for filename in os.listdir("./cogs"):
     if filename.endswith(".py") and not filename.startswith("_"):
         bot.load_extension(f'cogs.{filename[:-3]}')
 
-bot.run('OTg4ODM0Nzk5NjU1NDUyNzAz.GoPoso.Dgd445Dg2soOs5YWUj9zErO5xc_cWwnqJj4K2U')
+bot.run('Token')
 
 # ----------------------------------------------------------------------------------------------------------------------#
 
