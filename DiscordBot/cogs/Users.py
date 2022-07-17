@@ -90,6 +90,12 @@ class Users(commands.Cog):
 
 # ---------------------------------------------------------------------------------------------------------------------#
 
+    @commands.command()
+    async def lol(self, ctx):
+        await ctx.send('Lol')
+
+# ---------------------------------------------------------------------------------------------------------------------#
+
     @commands.command(name="reply")
     async def command_reply(self, ctx, *, text):
         await ctx.send(text)
